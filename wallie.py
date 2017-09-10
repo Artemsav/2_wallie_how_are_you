@@ -1,4 +1,4 @@
-import random
+﻿import random
 
 
 def get_wallie_action():
@@ -15,6 +15,11 @@ def get_wallie_action():
     return 'Валли ' + random.choice(possible_actions)
 
 
-if __name__ == '__main__':
-    action = get_wallie_action()
-    print action
+    if 4 > 3:
+        action = get_wallie_action()
+        print(action)
+        
+
+        
+ 
+    
